@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jessica Cacau</title>
-    <link>https://jessicaccp.github.io/</link>
-    <description>Recent content on Jessica Cacau</description>
+    <title>zsh on Jessica Cacau</title>
+    <link>https://jessicaccp.github.io/tags/zsh/</link>
+    <description>Recent content in zsh on Jessica Cacau</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Mon, 29 Jul 2019 21:04:12 -0300</lastBuildDate>
     
-	<atom:link href="https://jessicaccp.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jessicaccp.github.io/tags/zsh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -24,19 +24,6 @@ $ sh -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-
  Configure zsh and change the theme:
   $ nano ~/.zshrc ZSH_THEME=&amp;#34;&amp;lt;theme-name&amp;gt;&amp;#34; Now, instead of setting up things in ~/.bashrc, set up in ~/.zshrc.
 If you want to undo the change and use bash again, then:</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>https://jessicaccp.github.io/about/</link>
-      <pubDate>Mon, 22 Jul 2019 13:54:29 -0300</pubDate>
-      
-      <guid>https://jessicaccp.github.io/about/</guid>
-      <description>Jessica, 1993, Brazil.
- Computer Science undergraduate student at State University of Ceará (UECE) Researcher at Computer Networks and Security Laboratory (LARCES/UECE) Member of Competitive Programming Study Group (GEMP/UECE)  I ❤️ programming, photography, cinema, music and cats.
-You can contact me at jessica.cacau (at) larces.uece.br.
-My social networks: Github 💻 / Instagram 📷 / Last.fm 🎵 / Filmow 🎥
-Some important links: My Lattes CV / LARCES&amp;rsquo;s webpage</description>
     </item>
     
   </channel>

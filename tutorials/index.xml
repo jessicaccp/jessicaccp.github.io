@@ -5,18 +5,47 @@
         <description>Recent content in Tutorials on Jessica Cacau</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 22 Jul 2019 17:47:31 -0300</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jul 2019 21:04:12 -0300</lastBuildDate>
         <atom:link href="https://jessicaccp.github.io/tutorials/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Test</title>
-            <link>https://jessicaccp.github.io/tutorials/test/</link>
-            <pubDate>Mon, 22 Jul 2019 17:47:31 -0300</pubDate>
+            <title>Customize Terminal With Zsh</title>
+            <link>https://jessicaccp.github.io/tutorials/customize-terminal-with-zsh/</link>
+            <pubDate>Mon, 29 Jul 2019 21:04:12 -0300</pubDate>
             
-            <guid>https://jessicaccp.github.io/tutorials/test/</guid>
-            <description>Hi, this is a test, you&amp;rsquo;re not seeing anything.</description>
-            <content type="html"><![CDATA[<p>Hi, this is a test, you&rsquo;re not seeing anything.</p>
-]]></content>
+            <guid>https://jessicaccp.github.io/tutorials/customize-terminal-with-zsh/</guid>
+            <description>Install zsh:  $ sudo dnf install zsh  Install oh-my-zsh:  (via wget)
+$ sh -c &amp;#34;$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&amp;#34; (via curl)
+$ sh -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;#34;  Logout and login
+ Look for a theme
+ Configure zsh and change the theme:
+  $ nano ~/.zshrc ZSH_THEME=&amp;#34;&amp;lt;theme-name&amp;gt;&amp;#34; Now, instead of setting up things in ~/.bashrc, set up in ~/.zshrc.
+If you want to undo the change and use bash again, then:</description>
+            <content type="html"><![CDATA[<ul>
+<li>Install zsh:</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo dnf install zsh</code></pre></div>
+<ul>
+<li>Install oh-my-zsh:</li>
+</ul>
+
+<p>(via wget)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span></code></pre></div>
+<p>(via curl)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span></code></pre></div>
+<ul>
+<li><p>Logout and login</p></li>
+
+<li><p>Look for a <a href="https://github.com/robbyrussell/oh-my-zsh/wiki/themes" target="_blank">theme</a></p></li>
+
+<li><p>Configure zsh and change the theme:</p></li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ nano ~/.zshrc
+ZSH_THEME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&lt;theme-name&gt;&#34;</span></code></pre></div>
+<p>Now, instead of setting up things in <code>~/.bashrc</code>, set up in <code>~/.zshrc</code>.</p>
+
+<p>If you want to undo the change and use bash again, then:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ chsh /bin/bash</code></pre></div>]]></content>
         </item>
         
     </channel>
